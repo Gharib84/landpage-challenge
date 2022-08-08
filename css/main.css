@@ -1,0 +1,240 @@
+/* X-Small devices (portrait phones, less than 576px)*/
+@media (max-width: 35.999rem) {
+
+    .navbar-nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar-nav .nav-item .nav-link:hover {
+        color: blueviolet !important;
+    }
+
+    .text-style {
+        padding: 2rem 0 !important;
+        font-size: 3rem;
+        font-weight: bold;
+        text-align: left;
+        line-height: 3.563rem;
+        margin: 0 1rem;
+    }
+
+    body {
+        color: #000;
+        overflow-x: hidden;
+    }
+
+    .cool {
+        margin-top: 1rem;
+    }
+
+    .text-colors {
+        color: #A55C30;
+        font-weight: bold;
+    }
+
+    /*.small-mg {
+        margin: 110px;
+        transform: scale(2, 2);
+        overflow: hidden;
+    }*/
+
+    .align-center-all {
+        text-align: center;
+    }
+
+    #cards-show {
+        margin: 0;
+    }
+
+    .footer-super {
+        text-align: center;
+    }
+
+}
+
+/*Small devices (landscape phones, less than 768px)*/
+@media (max-width: 47.999rem) {
+
+    .navbar-nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar-nav .nav-item .nav-link:hover {
+        color: blueviolet !important;
+    }
+
+    .text-style {
+        padding: 2rem 0 !important;
+        font-size: 3rem;
+        font-weight: bold;
+        text-align: left;
+        line-height: 3.563rem;
+        margin: 0 1rem;
+    }
+
+    .bg-ground {
+        margin: 0 -43px;
+        min-width: 992px;
+    }
+
+    .align-center-all {
+        text-align: center;
+    }
+
+    #cards-show {
+        margin: 0;
+    }
+}
+
+/* Medium devices (tablets, less than 992px)*/
+@media (max-width: 61.999rem) {
+
+
+    .navbar-nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar-nav .nav-item .nav-link:hover {
+        color: blueviolet !important;
+    }
+
+    .text-style {
+        padding: 2rem 0 !important;
+        font-size: 4rem;
+        font-weight: bold;
+        text-align: left;
+        line-height: 4.563rem;
+        margin: 0 1rem;
+    }
+
+    body {
+        color: #000;
+    }
+
+    .align-center-all {
+        text-align: center;
+    }
+
+    #cards-show {
+        margin: 0;
+    }
+}
+
+
+/*style large device */
+
+body {
+    height: 100vh;
+    color: #000;
+    overflow-x: hidden !important;
+}
+
+
+
+a.navbar-brand {
+    color: #A55C30 !important;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: blueviolet;
+    font-weight: bold;
+}
+
+.bg-ground {
+    background-image: url('image-2.png');
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat !important
+}
+
+.grid-me {
+    align-items: center;
+    justify-items: center;
+}
+
+.text-style {
+
+    font-size: 60px;
+    font-weight: bold;
+
+}
+
+
+.text-colors {
+    color: #A55C30;
+    font-weight: bold;
+}
+
+#cards-show {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.91), rgba(0, 0, 0, 0.91)), url('../img/ car.png') no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply, normal;
+    min-height: 800px;
+    display: flex;
+    align-items: center;
+    margin-top: 116.25px;
+
+}
+
+.my-cards {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.91), rgba(0, 0, 0, 0.91));
+    background-blend-mode: multiply, normal;
+    color: white;
+}
+
+.service-color {
+    color: #A55C30;
+    font-weight: bold;
+}
+
+#testi {
+    min-height: 850px;
+    background-color: #F8D7A4;
+    display: flex;
+    align-items: center;
+
+}
+
+#contact_us {
+    min-height: 780px;
+    display: flex;
+    align-items: center;
+}
+
+.bg-cards {
+    background-color: #E8EAEC;
+    ;
+}
+
+input[type=text] {
+    background-color: #fff !important;
+}
+
+input[type=email] {
+    background-color: #fff !important;
+}
+
+textarea {
+    background-color: #fff !important;
+}
+
+/* style footer */
+footer {
+    min-height: 437px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-bg-link:hover {
+    background-color: #000;
+}
